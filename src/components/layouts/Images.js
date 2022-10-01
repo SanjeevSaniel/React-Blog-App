@@ -17,7 +17,7 @@ const ImagesGrid = () => {
       sx={{ width: "100%" }}
       variant="quilted"
       cols={4}
-      rowHeight={200}
+      rowHeight={250}
     >
       {itemData.map((item) => (
         <ImageListItem

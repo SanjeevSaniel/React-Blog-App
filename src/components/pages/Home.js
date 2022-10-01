@@ -1,7 +1,8 @@
-import ImagesGrid from "../layouts/Images";
+// import Images from "../layouts/Images";
 
 const Home = () => {
-  return <ImagesGrid />;
+  // return <Images />;
+  return <h1>Home</h1>;
 };
 
 export default Home;
