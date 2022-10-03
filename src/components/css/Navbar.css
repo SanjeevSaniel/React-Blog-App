@@ -33,15 +33,17 @@ header span {
 
 ul {
   display: flex;
-}
-
-li {
   list-style: none;
-  margin: 0 4rem;
 }
 
 .nav-links {
+  margin: 0 4rem;
   text-decoration: none;
   color: rgb(69, 66, 66);
   font-weight: 600;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
 }
