@@ -11,6 +11,7 @@
   margin: 1rem 0 5rem 0;
   width: 80px;
   border: 1.5px solid #f08080;
+  background-color: #f08080;
 }
 
 .ah-container {
@@ -43,9 +44,6 @@
   color: rgb(25, 24, 24);
   padding: 1rem 1.5rem;
   font-weight: 500;
-  /* display: flex;
-  flex-flow: column;
-  align-items: center; */
   font-size: 2.5rem;
 }
 

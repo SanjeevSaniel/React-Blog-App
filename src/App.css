@@ -1,0 +1,8 @@
+body {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  margin: auto;
+  /* margin: 0 300px; */
+  max-width: 1200px;
+}

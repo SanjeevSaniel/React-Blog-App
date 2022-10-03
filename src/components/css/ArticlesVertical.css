@@ -1,0 +1,71 @@
+.vh-heading {
+  font-size: 3.5rem;
+  margin: 5rem 0 0 0;
+}
+
+.vh-hr {
+  margin: 1rem 0 5rem 0;
+  width: 80px;
+  border: 1.5px solid #f08080;
+  background-color: #f08080;
+}
+
+.vh-main-container-internal {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.vh-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
+
+.vh-container .vh-images {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.vh-container .vh-images-caption {
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+
+.vh-images {
+  background-image: url("https://images.pexels.com/photos/238631/pexels-photo-238631.jpeg?cs=srgb&dl=pexels-flo-maderebner-238631.jpg&fm=jpg");
+  background-size: cover;
+  width: 22rem;
+  height: 20rem;
+  margin: 2.5rem;
+}
+
+.vh-images-caption {
+  position: relative;
+  color: rgb(25, 24, 24);
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+}
+
+.vh-images-caption .title {
+  font-size: 2.5rem;
+}
+
+.vh-images-caption p {
+  color: rgb(153, 152, 152);
+  margin: 0.5rem 0;
+  font-size: 1.4rem;
+  width: 30rem;
+  text-align: left;
+}
+
+.vh-images-date {
+  position: absolute;
+  bottom: 2rem;
+  margin: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.category {
+  color: rgb(25, 24, 24);
+  font-weight: 700;
+}
