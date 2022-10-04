@@ -2,7 +2,6 @@ import ImageGallery from "../layouts/ImageGallery";
 // import ImageListGrid from "../layouts/ImageListGrid";
 import ArticlesHorizontal from "../layouts/ArticlesHorizontal";
 import ArticlesVertical from "../layouts/ArticlesVertical";
-import Advertisement from "../layouts/Advertisement";
 import "../css/Home.css";
 
 const Home = () => {
@@ -12,7 +11,6 @@ const Home = () => {
       <ImageGallery />
       <ArticlesHorizontal />
       <ArticlesVertical />
-      <Advertisement />
     </div>
   );
 };

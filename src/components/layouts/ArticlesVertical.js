@@ -1,6 +1,8 @@
 // import Stack from "@mui/material/Stack";
 import Divider from "@mui/material/Divider";
+import TopPosts from "../layouts/TopPosts";
 import "../css/ArticlesVertical.css";
+import "../css/TopPosts.css";
 
 const ArticlesVertical = () => {
   return (
@@ -74,6 +76,8 @@ const ArticlesVertical = () => {
           <h2>Advertisement</h2>
         </div>
       </main>
+
+      <TopPosts />
     </main>
   );
 };
