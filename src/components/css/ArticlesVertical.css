@@ -15,6 +15,22 @@
   grid-template-columns: 3fr 2fr;
 }
 
+.ad-box {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* grid-row: auto; */
+  border: 1px solid grey;
+  margin: 0 0 0 8rem;
+  width: 40rem;
+  height: 70rem;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 .vh-container {
   display: grid;
   grid-template-columns: auto auto;

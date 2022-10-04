@@ -70,6 +70,9 @@ const ArticlesVertical = () => {
             </div>
           </div>
         </div>
+        <div className="ad-box">
+          <h2>Advertisement</h2>
+        </div>
       </main>
     </main>
   );
