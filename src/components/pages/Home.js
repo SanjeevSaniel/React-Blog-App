@@ -1,7 +1,8 @@
-import ImageGallery from "../layouts/ImageGallery";
+import ImageGallery from "../ImageGallery/ImageGallery";
 // import ImageListGrid from "../layouts/ImageListGrid";
-import ArticlesHorizontal from "../layouts/ArticlesHorizontal";
-import ArticlesVertical from "../layouts/ArticlesVertical";
+import ArticlesHorizontal from "../ArticlesHorizontal/ArticlesHorizontal";
+import ArticlesVertical from "../ArticlesVertical/ArticlesVertical";
+import ImageSlideshow from "../ImageSlideShow/ImageSlideShow";
 import "../css/Home.css";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <ImageGallery />
       <ArticlesHorizontal />
       <ArticlesVertical />
+      <ImageSlideshow />
     </div>
   );
 };
