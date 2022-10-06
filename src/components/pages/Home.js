@@ -1,8 +1,8 @@
 import ImageGallery from "../ImageGallery/ImageGallery";
-// import ImageListGrid from "../layouts/ImageListGrid";
 import ArticlesHorizontal from "../ArticlesHorizontal/ArticlesHorizontal";
 import ArticlesVertical from "../ArticlesVertical/ArticlesVertical";
-import ImageSlideshow from "../ImageSlideShow/ImageSlideShow";
+// import ImageSlideshow from "../ImageSlideShow/ImageSlideShow";
+import LatestStories from "../LatestStories/LatestStories";
 import "../css/Home.css";
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
       <ImageGallery />
       <ArticlesHorizontal />
       <ArticlesVertical />
-      <ImageSlideshow />
+      <LatestStories />
     </div>
   );
 };
