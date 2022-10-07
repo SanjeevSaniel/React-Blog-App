@@ -1,26 +1,45 @@
+import { Link } from "react-router-dom";
+// import NavbarWithBtn from "../NavbarWithBtn/NavbarWithBtn";
 import "../ImageGallery/ImageGallery.css";
 
 const ImageGallery = () => {
   return (
     <div className="grid-image-container">
-      <div className="grid-images grid-images-one">
-        <div className="grid-images-caption-one">
-          <h2>Lake Louise, AB, Canada</h2>
-          <h5>Travel / October 1 2022</h5>
+      <Link to="/Image1" className="grid-images-one">
+        <div className="grid-images ">
+          <div className="grid-images-caption-one">
+            <h2>Lake Louise, AB, Canada</h2>
+            <h5>Travel / October 1 2022</h5>
+          </div>
         </div>
-      </div>
-      <div className="grid-images grid-images-two">
-        <div className="grid-images-caption-two">
-          <h2>Barra de Camaratuba, PB, Brazil</h2>
-          <h5>Travel / October 2 2022</h5>
+      </Link>
+
+      <a
+        href="https://www.pexels.com/photo/men-in-red-and-green-sailboat-2258349/"
+        className="grid-images-two"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="grid-images ">
+          <div className="grid-images-caption-two">
+            <h2>Barra de Camaratuba, PB, Brazil</h2>
+            <h5>Travel / October 2 2022</h5>
+          </div>
         </div>
-      </div>
-      <div className="grid-images grid-images-three">
-        <div className="grid-images-caption-three">
-          <h2>Boating</h2>
-          <h5>Travel / October 1 2022</h5>
+      </a>
+      <a
+        href="https://www.pexels.com/photo/adventure-boating-boats-clouds-301738/"
+        className="grid-images-three"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className="grid-images ">
+          <div className="grid-images-caption-three">
+            <h2>Boating</h2>
+            <h5>Travel / October 1 2022</h5>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 };

@@ -1,0 +1,29 @@
+.navbar-with-btn {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10rem;
+  box-shadow: 0 2px 5px 1px rgb(225, 225, 225);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+header span {
+  padding: 0;
+}
+
+.the {
+  display: inline-block;
+  transform: rotate(-90deg);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
