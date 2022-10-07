@@ -20,16 +20,17 @@ header span {
   padding: 0.5rem;
 }
 
-.the {
+.navbar .the {
   display: inline-block;
   transform: rotate(-90deg);
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 500;
 }
 
-.title {
+.navbar .title {
   font-size: 5.5rem;
   font-weight: 700;
+  padding-bottom: 0.5rem;
 }
 
 ul {

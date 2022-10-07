@@ -16,14 +16,27 @@ header span {
   padding: 0;
 }
 
-.the {
+.navbar-with-btn .the {
   display: inline-block;
   transform: rotate(-90deg);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
 }
 
-.title {
-  font-size: 3.5rem;
+.navbar-with-btn .title {
+  font-size: 3rem;
   font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.btn-get-started {
+  border: 1.5px solid #03a87c;
+  padding: 0.5rem 1rem;
+  color: #03a87c;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-get-started:hover {
+  box-shadow: 0 0 5px 1px #34edbb;
 }
