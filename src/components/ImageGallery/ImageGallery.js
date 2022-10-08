@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-// import NavbarWithBtn from "../NavbarWithBtn/NavbarWithBtn";
 import "../ImageGallery/ImageGallery.css";
 
 const ImageGallery = () => {
   return (
     <div className="grid-image-container">
-      <Link to="/Image1" className="grid-images-one">
+      <Link to="/Information1" className="grid-images-one">
         <div className="grid-images ">
           <div className="grid-images-caption-one">
             <h2>Lake Louise, AB, Canada</h2>

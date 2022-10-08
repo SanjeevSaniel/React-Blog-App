@@ -1,0 +1,41 @@
+@import url("https://use.fontawesome.com/releases/v5.7.1/css/all.css");
+.avatar-n-social {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.avatar-n-info {
+  /* margin: auto; */
+
+  /* align-items: center; */
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-right: 18rem;
+  /* height: 5rem;
+  width: 5rem; */
+  /* border-radius: 100%;
+  vertical-align: middle; */
+}
+
+.avatar-image {
+  /* width: 5rem;
+  height: 5rem; */
+  margin: 1rem 1rem 1rem 0;
+}
+
+.avatar-info {
+  font-size: 1.2rem;
+}
+
+.avatar-info .author {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

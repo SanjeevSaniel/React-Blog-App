@@ -8,7 +8,7 @@ import Hollywood from "./components/pages/Hollywood";
 import Fitness from "./components/pages/Fitness";
 import Food from "./components/pages/Food";
 import Error from "./components/pages/Error";
-import NavbarWithBtn from "./components/NavbarWithBtn/NavbarWithBtn";
+import Information1 from "./components/Information/Information1"
 import "./App.css";
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
             <Route path="/Food" element={<Food />}></Route>
             <Route path="*" element={<Error />}></Route>
           </Route>
-          <Route path="/Image1" element={<NavbarWithBtn />}></Route>
+          <Route path="/Information1" element={<Information1 />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

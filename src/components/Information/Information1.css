@@ -1,0 +1,26 @@
+.information-section {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 32%;
+  display: flex;
+  flex-flow: column wrap;
+  /* align-items: center; */
+}
+
+.information-section h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: rgb(81, 79, 79);
+}
+
+.image-1 {
+  max-width: 50rem;
+  box-shadow: 0 0 5px 1px rgb(168, 168, 168);
+}
+
+.information-section .about {
+    /* position: absolute; */
+    margin-top: 3rem;
+    max-width: 50rem;
+    font-size: 1.4rem;
+}
