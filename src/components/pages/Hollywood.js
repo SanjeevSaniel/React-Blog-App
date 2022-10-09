@@ -5,7 +5,6 @@ const Hollywood = () => {
   return (
     <div className="Hollywood">
       <ArticlesVertical
-        // photo2={Photo}
         adLink="https://www.youtube.com/embed/Zi4LMpSDccc?autoplay=1&mute=1&controls=0&loop=1"
         adLink2="https://www.youtube.com/embed/1XpxzOYSq80/?autoplay=1&mute=1&controls=0&loop=1"
         adLink3="https://www.youtube.com/embed/giXco2jaZ_4/?autoplay=1&mute=1&controls=0&loop=1"
