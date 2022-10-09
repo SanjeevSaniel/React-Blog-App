@@ -17,6 +17,12 @@
   margin: 20px 0 40px;
 }
 
+.grid-images-one:hover,
+.grid-images-two:hover,
+.grid-images-three:hover {
+  box-shadow: 0 0 7px 2px rgb(255, 254, 254);
+}
+
 .grid-images-one {
   position: relative;
   grid-column: 1 / 2;
