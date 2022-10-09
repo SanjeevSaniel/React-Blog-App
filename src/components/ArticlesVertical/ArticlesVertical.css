@@ -8,7 +8,7 @@
 }
 
 .vh-hr {
-  margin: 1rem 0 5rem 0;
+  margin: 1rem 0 3rem 0;
   width: 80px;
   border: 1.5px solid #f08080;
   background-color: #f08080;
@@ -25,9 +25,11 @@
   right: 0;
   display: flex;
   justify-content: center;
+  flex-flow: column wrap;
   align-items: center;
   /* grid-row: auto; */
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
+  box-shadow: 0 0 5px 2px rgb(218, 217, 217);
   margin: 0 0 0 8rem;
   width: 35rem;
   height: 70rem;
@@ -35,6 +37,11 @@
   font-weight: 400;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.ad-box iframe {
+  margin-bottom: 2rem;
+  box-shadow: 0 0 5px 2px rgb(209, 207, 207);
 }
 
 .vh-container {
@@ -54,7 +61,7 @@
 }
 
 .vh-images {
-  background-image: url("https://images.pexels.com/photos/238631/pexels-photo-238631.jpeg?cs=srgb&dl=pexels-flo-maderebner-238631.jpg&fm=jpg");
+  /* background-image: url("https://images.pexels.com/photos/238631/pexels-photo-238631.jpeg?cs=srgb&dl=pexels-flo-maderebner-238631.jpg&fm=jpg"); */
   background-size: cover;
   width: 22rem;
   height: 20rem;
@@ -76,7 +83,7 @@
   color: rgb(153, 152, 152);
   margin: 0.5rem 0;
   font-size: 1.4rem;
-  width: 30rem;
+  max-width: 40rem;
   text-align: left;
 }
 

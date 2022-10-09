@@ -44,8 +44,8 @@ const Navbar = () => {
         </ul>
       </nav>
       <Divider variant="middle" />
-      <br />
-      <br />
+      {/* <br />
+      <br /> */}
       <Outlet />
     </>
   );
