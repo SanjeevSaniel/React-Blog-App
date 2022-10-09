@@ -18,6 +18,8 @@ const Bollywood = () => {
         adTitle="Allen Solly ad"
         adTitle2="Travel ad 2"
         adTitle3="Brahmastra Trailer"
+        category="Bollywood"
+        category2="Bollywood"
         description="Naina, an introverted, perpetually depressed girl's life changes when she meets Aman. But Aman has a secret of his own which changes their lives forever. Embroiled in all this is Rohit, Naina's best friend who conceals his love for her."
         description3="When the titular antagonist of an action game takes on physical form, it's only the game's less powerful protagonist who can save his creator's family."
         photo="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHXlDQAHJwrwObgcIY3ZXaowfbP1T8u1nNby6iGViOgaS2ysNy"

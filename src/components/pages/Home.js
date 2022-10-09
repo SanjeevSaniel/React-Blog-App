@@ -19,6 +19,8 @@ const Home = () => {
         adTitle="Travel ad"
         adTitle2="Travel ad 2"
         adTitle3="Travel ad 2"
+        category="Travel"
+        category2="Travel"
         description="Gujarat is vastly underrated and it's a mystery to us why the region isn't more well-known as a tourist destination. It has a plethora of temples and palaces."
         description2="Gujarat is vastly underrated and it's a mystery to us why the region isn't more well-known as a tourist destination. It has a plethora of temples and palaces."
         description3="Gujarat is vastly underrated and it's a mystery to us why the region isn't more well-known as a tourist destination. It has a plethora of temples and palaces."
