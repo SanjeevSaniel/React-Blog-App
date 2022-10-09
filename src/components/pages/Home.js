@@ -1,3 +1,4 @@
+import ScrollToTop from "react-scroll-to-top";
 import ImageGallery from "../ImageGallery/ImageGallery";
 import ArticlesHorizontal from "../ArticlesHorizontal/ArticlesHorizontal";
 import ArticlesVertical from "../ArticlesVertical/ArticlesVertical";
@@ -14,6 +15,7 @@ const Home = () => {
       <ArticlesVertical />
       <ImageSlideshow />
       <LatestStories />
+      <ScrollToTop smooth/>
     </div>
   );
 };

@@ -8,8 +8,10 @@ import Hollywood from "./components/pages/Hollywood";
 import Fitness from "./components/pages/Fitness";
 import Food from "./components/pages/Food";
 import Error from "./components/pages/Error";
-import Information1 from "./components/Information/Information1"
 import "./App.css";
+import Information1 from "./components/Information/Information1/Information1";
+import Information2 from "./components/Information/Information2/Information2";
+import Information3 from "./components/Information/Information3/Information3";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
             <Route path="*" element={<Error />}></Route>
           </Route>
           <Route path="/Information1" element={<Information1 />}></Route>
+          <Route path="/Information2" element={<Information2 />}></Route>
+          <Route path="/Information3" element={<Information3 />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
