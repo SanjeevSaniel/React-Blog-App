@@ -63,3 +63,13 @@
 .category {
   font-weight: 600;
 }
+
+.ah-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.ah-link:hover {
+  color: #f08080;
+  text-decoration: underline;
+}
