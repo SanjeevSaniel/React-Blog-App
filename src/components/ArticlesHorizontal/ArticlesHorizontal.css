@@ -31,6 +31,7 @@
   border-radius: 10px;
   overflow: hidden;
   background-color: rgb(255, 252, 252);
+  box-shadow: 0 0 5px 1px rgb(232, 227, 227);
 }
 
 .ah-images {
