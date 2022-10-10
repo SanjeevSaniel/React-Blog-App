@@ -99,6 +99,16 @@
   font-weight: 700;
 }
 
+.load-more-btn {
+  margin: 2rem 3rem 4rem;
+  border: 0;
+  color: grey;
+  background: none;
+  font-weight: 600;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
 /* .top-posts-container {
   position: absolute;
   right: 0;

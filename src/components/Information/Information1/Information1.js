@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Divider from "@mui/material/Divider";
 import NavbarWithBtn from "../../NavbarWithBtn/NavbarWithBtn";
 import LikeNshare from "../../LikeNshare/LikeNshare";
@@ -10,6 +11,13 @@ import "../Information1/Information1.css";
 import RelatedPosts from "../../RelatedPosts/RelatedPosts";
 
 const Information1 = () => {
+  const [like, setLike] = useState(1000),
+    [isLike, setIsLike] = useState(false),
+    onLikeButtonClick = () => {
+      setLike(like + (isLike ? -1 : 1));
+      setIsLike(!isLike);
+    };
+
   return (
     <>
       <div className="information-container">
@@ -64,8 +72,14 @@ const Information1 = () => {
               <span className="tag-name">Adventure</span>
             </section>
             <section className="like-container">
-              <img className="like-button" src={Like} alt="Like Button" />
-              <span className="like-count">9.3K Claps</span>
+              <img
+                onClick={onLikeButtonClick}
+                className="like-button"
+                src={Like}
+                alt="Like Button"
+              />
+              <span className="like-count">{like}</span>
+              {/* <span className="like-count">9.3K Claps</span> */}
             </section>
             <Divider />
             <p className="content-writer">Written By</p>
