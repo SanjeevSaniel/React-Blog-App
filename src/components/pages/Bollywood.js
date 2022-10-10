@@ -16,7 +16,7 @@ const Bollywood = () => {
         category="Bollywood"
         photo={Photo}
         title="Brahmastra Part One: Shiva"
-        year="2003"
+        date="September 9 2022"
       />
       <ScrollToTop smooth />
     </div>

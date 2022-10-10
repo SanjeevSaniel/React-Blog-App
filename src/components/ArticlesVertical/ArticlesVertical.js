@@ -11,6 +11,7 @@ const ArticlesVertical = ({
   title,
   ads,
   category,
+  date,
   articleLink,
 }) => {
   const [articlesData, setArticlesData] = useState([]);
@@ -63,7 +64,7 @@ const ArticlesVertical = ({
                   <p className="description">{articleData.description}</p>
                   <p className="vh-images-date">
                     <span className="category">{articleData.category}</span>
-                    <span> / October 7 {articleData.year}</span>
+                    <span> / {articleData.date}</span>
                   </p>
                 </div>
               </div>
@@ -94,6 +95,7 @@ const ArticlesVertical = ({
         title={title}
         category={category}
         articleLink={articleLink}
+        date={date}
       />
     </main>
   );

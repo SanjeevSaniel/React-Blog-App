@@ -1,6 +1,6 @@
 import "../TopPosts/TopPosts.css";
 
-const TopPosts = ({ photo, title, category, articleLink }) => {
+const TopPosts = ({ photo, title, category, date, articleLink }) => {
   return (
     <div className="top-posts-container">
       <h1 className="tp-heading">Top Posts</h1>
@@ -17,7 +17,7 @@ const TopPosts = ({ photo, title, category, articleLink }) => {
           <p className="number-1">1</p>
           <p className="tp-images-date">
             <span className="category">{category}</span>
-            <span> / September 9 2022</span>
+            <span> / {date}</span>
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@ const TopPosts = ({ photo, title, category, articleLink }) => {
             <span className="number-2">2</span>
             <p className="tp-images-date">
               <span className="category">{category}</span>
-              <span> / September 9 2022</span>
+              <span> / {date}</span>
             </p>
           </span>
         </div>
@@ -54,7 +54,7 @@ const TopPosts = ({ photo, title, category, articleLink }) => {
             <span className="number-2">3</span>
             <p className="tp-images-date">
               <span className="category">{category}</span>
-              <span> / September 9 2022</span>
+              <span> / {date}</span>
             </p>
           </span>
         </div>
@@ -73,7 +73,7 @@ const TopPosts = ({ photo, title, category, articleLink }) => {
             <span className="number-2">4</span>
             <p className="tp-images-date">
               <span className="category">{category}</span>
-              <span> / September 9 2022</span>
+              <span> / {date}</span>
             </p>
           </span>
         </div>
