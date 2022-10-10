@@ -6,15 +6,15 @@ import "../ArticlesVertical/ArticlesVertical.css";
 import "../TopPosts/TopPosts.css";
 
 const ArticlesVertical = ({
-  apiData,
+  articles,
   photo,
   title,
-  adLink,
+  ads,
   category,
   articleLink,
 }) => {
-  const [articles, setArticles] = useState([]);
-  const [adLinks, setAdLinks] = useState([]);
+  const [articlesData, setArticlesData] = useState([]);
+  const [adsData, setAdsData] = useState([]);
 
   const [visible, setVisible] = useState(4);
 
@@ -31,12 +31,12 @@ const ArticlesVertical = ({
 
   useEffect(() => {
     // fetchData();
-    setArticles(apiData);
-  }, [apiData]);
+    setArticlesData(articles);
+  }, [articles]);
 
   useEffect(() => {
-    setAdLinks(adLink);
-  }, [adLink]);
+    setAdsData(ads);
+  }, [ads]);
 
   const showMoreArticles = () => {
     setVisible((previousValue) => previousValue + 4);
@@ -47,23 +47,23 @@ const ArticlesVertical = ({
       <h1 className="vh-heading">Latest Articles</h1>
       <hr className="vh-hr" />
       <main className="vh-main-container-internal">
-        {articles.slice(0, visible).map((article) => {
+        {articlesData.slice(0, visible).map((articleData) => {
           return (
             <div>
               <Divider />
               <div className="vh-container">
                 <div
                   className="vh-images"
-                  style={{ backgroundImage: `url(${article.photoUrl})` }}
+                  style={{ backgroundImage: `url(${articleData.photoUrl})` }}
                 ></div>
                 <div className="vh-images-caption">
                   <h1 className="title">
-                    <a href={article.link}>{article.title}</a>
+                    <a href={articleData.link}>{articleData.title}</a>
                   </h1>
-                  <p className="description">{article.description}</p>
+                  <p className="description">{articleData.description}</p>
                   <p className="vh-images-date">
-                    <span className="category">{article.category}</span>
-                    <span> / October 7 {article.year}</span>
+                    <span className="category">{articleData.category}</span>
+                    <span> / October 7 {articleData.year}</span>
                   </p>
                 </div>
               </div>
@@ -73,11 +73,11 @@ const ArticlesVertical = ({
 
         <div className="ad-box">
           <h2>Advertisement</h2> <br />
-          {adLinks.map((adLink) => {
+          {adsData.map((data) => {
             return (
               <iframe
-                title={adLink.title}
-                src={adLink.link}
+                title={data.title}
+                src={data.link}
                 frameBorder="0"
               ></iframe>
             );

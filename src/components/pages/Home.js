@@ -8,16 +8,16 @@ import LatestStories from "../LatestStories/LatestStories";
 const articlesVertical = require("../API_Data/Articles.json");
 const articlesHorizontal = require("../API_Data/ArticlesHorizontal.json");
 const images = require("../API_Data/SliderImages.json");
-const adLinks = require("../API_Data/HomeAds.json");
+const ads = require("../API_Data/HomeAds.json");
 
 const Home = () => {
   return (
     <div className="Home">
       <ImageGallery />
-      <ArticlesHorizontal apiData={articlesHorizontal} />
+      <ArticlesHorizontal articles={articlesHorizontal} />
       <ArticlesVertical
-        apiData={articlesVertical}
-        adLink={adLinks}
+        articles={articlesVertical}
+        ads={ads}
         articleLink="https://www.pexels.com/photo/woman-crossing-on-bridge-238631/"
         adTitle="Travel ad"
         adTitle2="Travel ad 2"

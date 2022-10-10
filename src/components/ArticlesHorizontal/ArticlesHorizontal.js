@@ -1,24 +1,26 @@
 import React, { useState, useEffect } from "react";
 import "../ArticlesHorizontal/ArticlesHorizontal.css";
 
-const ArticlesHorizontal = ({ apiData }) => {
-  const [articles, setArticles] = useState([]);
+const ArticlesHorizontal = ({ articles }) => {
+  const [articlesData, setArticlesData] = useState([]);
 
   useEffect(() => {
-    setArticles(apiData);
-  }, [apiData]);
+    setArticlesData(articles);
+  }, [articles]);
 
   return (
     <main className="ah-main-container">
       <h1 className="ah-heading">The Latest</h1>
       <hr className="ah-hr" />
       <div className="ah-container">
-        {articles.map((article) => {
+        {articlesData.map((article) => {
           return (
             <figure className="ah-images-container">
               <img className="ah-images" src={article.url} alt={article.alt} />
               <figcaption className="ah-images-caption">
-                <a className="ah-link" href={article.link}>{article.caption}</a>
+                <a className="ah-link" href={article.link}>
+                  {article.caption}
+                </a>
                 <p>{article.about}</p>
               </figcaption>
               <p className="ah-images-date">
