@@ -87,6 +87,10 @@ const ArticlesVertical = ({
       </main>
 
       <button className="load-more-btn" onClick={showMoreArticles}>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/2267/2267918.png"
+          alt=""
+        />
         Load More
       </button>
 

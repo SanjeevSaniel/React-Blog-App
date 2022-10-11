@@ -99,11 +99,28 @@
 }
 
 .load-more-btn {
+  display: flex;
+  align-items: center;
   margin: 2rem 3rem 4rem;
+  padding: .5rem;
   border: 0;
+  border-radius: 5px;
   color: grey;
   background: none;
   font-weight: 600;
   font-size: 1.4rem;
   cursor: pointer;
+  transition: all .5s;
+}
+
+.load-more-btn img {
+  margin: 0 0.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+
+.load-more-btn:hover {
+  background-color: antiquewhite;
+  box-shadow: 0 0 10px 2px #f7dcdc;
 }

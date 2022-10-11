@@ -13,9 +13,9 @@ const ArticlesHorizontal = ({ articles }) => {
       <h1 className="ah-heading">The Latest</h1>
       <hr className="ah-hr" />
       <div className="ah-container">
-        {articlesData.map((article) => {
+        {articlesData.map((article, index) => {
           return (
-            <figure className="ah-images-container">
+            <figure key={index} className="ah-images-container">
               <img className="ah-images" src={article.url} alt={article.alt} />
               <figcaption className="ah-images-caption">
                 <a className="ah-link" href={article.link}>

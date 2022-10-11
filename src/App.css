@@ -12,3 +12,12 @@ body {
   /* margin: 0 300px; */
   max-width: 1230px;
 }
+
+.scroll-arrow {
+  background-color: antiquewhite;
+  transition: all 0.5s;
+}
+
+.scroll-arrow:hover {
+  box-shadow: 0 0 10px 5px rgb(209, 207, 207);
+}

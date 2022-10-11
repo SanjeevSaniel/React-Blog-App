@@ -16,7 +16,7 @@ const Technology = () => {
         title="Microsoft Teams users are using it"
         date="September 9 2022"
       />
-      <ScrollToTop smooth />
+      <ScrollToTop className="scroll-arrow" color="#f08080" smooth />
     </div>
   );
 };

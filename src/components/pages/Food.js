@@ -16,7 +16,7 @@ const Food = () => {
         title="Choco Brownies"
         date="October 5 2022"
       />
-      <ScrollToTop smooth />
+      <ScrollToTop className="scroll-arrow" color="#f08080" smooth />
     </div>
   );
 };
