@@ -19,13 +19,10 @@ const Home = () => {
         articles={articlesVertical}
         ads={ads}
         articleLink="https://www.pexels.com/photo/woman-crossing-on-bridge-238631/"
-        adTitle="Travel ad"
-        adTitle2="Travel ad 2"
-        adTitle3="Travel ad 2"
         category="Travel"
         photo="https://images.pexels.com/photos/238631/pexels-photo-238631.jpeg?cs=srgb&dl=pexels-flo-maderebner-238631.jpg&fm=jpg"
         title="Tambon Nong Chaeng, Thailand"
-        year="2022"
+        date="September 9 2022"
       />
       <ImageSlideshow images={images} />
       <LatestStories />

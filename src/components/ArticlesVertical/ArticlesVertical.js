@@ -48,9 +48,9 @@ const ArticlesVertical = ({
       <h1 className="vh-heading">Latest Articles</h1>
       <hr className="vh-hr" />
       <main className="vh-main-container-internal">
-        {articlesData.slice(0, visible).map((articleData) => {
+        {articlesData.slice(0, visible).map((articleData, index) => {
           return (
-            <div>
+            <div key={index}>
               <Divider />
               <div className="vh-container">
                 <div
