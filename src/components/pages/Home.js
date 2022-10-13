@@ -26,7 +26,7 @@ const Home = () => {
       />
       <ImageSlideshow images={images} />
       <LatestStories />
-      <ScrollToTop className="scroll-arrow" color="#f08080" smooth />
+      <ScrollToTop className="scroll-arrow" color="#ffffff" smooth />
     </div>
   );
 };

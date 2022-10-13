@@ -13,23 +13,9 @@
   /* align-items: center; */
 }
 
-/* .avatar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap;
-  margin-right: 18rem;
+@media screen and (max-width: 900px) {
+  .avatar-n-social {
+    flex-flow: column;
+    align-items: flex-start;
+  }
 }
-
-.avatar-image {
-  margin: 1rem 1rem 1rem 0;
-}
-
-.avatar-info {
-  font-size: 1.3rem;
-}
-
-.avatar-info .author {
-  font-size: 1.5rem;
-  font-weight: 600;
-} */

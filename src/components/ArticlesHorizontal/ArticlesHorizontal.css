@@ -73,3 +73,24 @@
   color: #f08080;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 900px) {
+  .ah-main-container {
+    display: flex;
+    flex-flow: column;
+    padding: 0 2rem;
+  }
+
+  .ah-header {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  .ah-container {
+    flex-flow: column;
+    place-items: center;
+    /* place-content: center; */
+  }
+}

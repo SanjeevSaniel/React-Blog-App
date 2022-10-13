@@ -16,7 +16,7 @@ const Fitness = () => {
         title="10 Ways to Move More in Everyday Life"
         date="October 9 2022"
       />
-      <ScrollToTop className="scroll-arrow" color="#f08080" smooth />
+      <ScrollToTop className="scroll-arrow" color="white" smooth />
     </div>
   );
 };

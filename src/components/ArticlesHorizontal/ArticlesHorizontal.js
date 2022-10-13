@@ -10,8 +10,10 @@ const ArticlesHorizontal = ({ articles }) => {
 
   return (
     <main className="ah-main-container">
-      <h1 className="ah-heading">The Latest</h1>
-      <hr className="ah-hr" />
+      <div className="ah-header">
+        <h1 className="ah-heading">The Latest</h1>
+        <hr className="ah-hr" />
+      </div>
       <div className="ah-container">
         {articlesData.map((article, index) => {
           return (

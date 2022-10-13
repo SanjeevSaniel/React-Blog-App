@@ -97,3 +97,28 @@
   font-size: 6rem;
   color: rgb(227, 224, 224);
 }
+
+@media screen and (max-width: 900px) {
+  .top-posts-container,
+  .tp-images-caption-small .title {
+    position: relative;
+    margin: auto;
+  }
+
+  .top-posts-container {
+    position: relative;
+    margin: 3rem auto;
+    top: 0;
+  }
+
+  .top-posts-header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .tp-container-small-internal {
+    display: flex;
+    align-items: center;
+  }
+}

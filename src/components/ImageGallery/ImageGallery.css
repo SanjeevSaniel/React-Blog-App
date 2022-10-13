@@ -10,8 +10,6 @@
   justify-items: center;
   align-items: center;
   width: 100%;
-  /* height: 100px; */
-  /* height: auto; */
   place-items: center;
   place-content: center;
   margin: 20px 0 40px;
@@ -38,11 +36,6 @@
   transition: all 1s;
 }
 
-/* .grid-images-one:hover {
-  width: 900px;
-  height: 485px;
-} */
-
 .two,
 .three {
   width: 305px;
@@ -58,8 +51,6 @@
   grid-row: 1 / 2;
   width: 305px;
   height: 245px;
-  /* width: 100%;
-  height: 100%; */
   background-image: url("https://images.pexels.com/photos/2258349/pexels-photo-2258349.jpeg?cs=srgb&dl=pexels-alexandre-saraiva-carniato-2258349.jpg&fm=jpg");
   /* background-image: url("../ImageGallery/images/pexels-alexandre-saraiva-carniato-2258349.jpg"); */
   background-size: cover;
@@ -84,11 +75,6 @@
   transition: all 1s;
 }
 
-/* .grid-images-two:hover,
-.grid-images-three:hover {
-  width: 290px;
-  height: 230px;
-} */
 
 .grid-images-caption-one {
   position: absolute;
@@ -107,4 +93,27 @@
 .grid-images h5 {
   color: rgb(210, 208, 208);
   font-size: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  .grid-image-container {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .grid-images-one {
+    width: 305px;
+    height: 245px;
+  }
+
+  .grid-images-caption-one {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-size: 18px;
+  }
 }

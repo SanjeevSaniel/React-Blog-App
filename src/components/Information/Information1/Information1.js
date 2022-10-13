@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ScrollToTop from "react-scroll-to-top";
 import Divider from "@mui/material/Divider";
 import NavbarWithBtn from "../../NavbarWithBtn/NavbarWithBtn";
 import LikeNshare from "../../LikeNshare/LikeNshare";
@@ -49,16 +50,7 @@ const Information1 = () => {
               happened when a dam was constructed and a local settlement
               submerged.
             </p>
-            {/* <div className="click-zoom">
-            <label>
-              <input type="checkbox" />
-              <img
-                className="image-1"
-                src="https://www.banfflakelouise.com/sites/default/files/styles/xl_2000_12x6/public/sightseeing-minnewanka-banff-alberta.jpg?itok=bFioy4jk"
-                alt=""
-              />
-            </label>
-          </div> */}
+
             <video
               className="video-1"
               src={video1}
@@ -133,6 +125,7 @@ const Information1 = () => {
           />
         </div>
       </section> */}
+      <ScrollToTop className="scroll-arrow" color="#ffffff" smooth />
     </>
   );
 };

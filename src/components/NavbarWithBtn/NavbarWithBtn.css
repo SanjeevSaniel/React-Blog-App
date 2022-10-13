@@ -1,10 +1,10 @@
 .navbar-with-btn {
   position: fixed;
   top: 0;
-  /* left: 0;
-  right: 0; */
+  left: 0;
+  right: 0;
   display: flex;
-  flex-flow: row wrap;
+  /* flex-flow: row wrap; */
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 10rem;
@@ -23,21 +23,34 @@
   color: rgb(69, 66, 66);
 }
 
-.navbar-with-btn .header span {
-  padding: 0;
+.app-bar {
+  padding: 0 15rem;
 }
 
-.navbar-with-btn .the {
+.header span {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header .the {
   display: inline-block;
   transform: rotate(-90deg);
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 500;
 }
 
-.navbar-with-btn .title {
+.header .title {
   font-size: 3rem;
   font-weight: 700;
-  padding-bottom: 0.5rem;
+  /* padding-bottom: 0.5rem; */
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .btn-get-started {
@@ -50,4 +63,25 @@
 
 .btn-get-started:hover {
   box-shadow: 0 0 5px 1px #34edbb;
+}
+
+@media screen and (max-width: 900px) {
+  .app-bar {
+    padding: 0;
+  }
+
+  .header .the {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    /* font-weight: 500; */
+  }
+
+  .header .title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    /* padding-bottom: 0.5rem; */
+  }
 }

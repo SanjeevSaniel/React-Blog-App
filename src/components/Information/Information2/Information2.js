@@ -1,3 +1,4 @@
+import ScrollToTop from "react-scroll-to-top";
 import Divider from "@mui/material/Divider";
 import NavbarWithBtn from "../../NavbarWithBtn/NavbarWithBtn";
 import LikeNshare from "../../LikeNshare/LikeNshare";
@@ -65,6 +66,7 @@ const Information2 = () => {
         </div>
       </div>
       <RelatedPosts />
+      <ScrollToTop className="scroll-arrow" color="#ffffff" smooth />
     </>
   );
 };

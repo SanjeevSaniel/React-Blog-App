@@ -13,7 +13,8 @@ const RelatedPosts = () => {
   //   </div>
   // </section>
   return (
-    <>
+    <div className="related-posts-container">
+      <p className="heading">More From Siren</p>
       <section className="related-posts">
         <div className="post">
           <p className="post-tag">Related reads</p>
@@ -55,7 +56,7 @@ const RelatedPosts = () => {
           />
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

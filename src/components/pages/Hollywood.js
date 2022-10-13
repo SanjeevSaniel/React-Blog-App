@@ -16,7 +16,7 @@ const Hollywood = () => {
         title="Los Angeles, CA, Verenigde Staten"
         date="May 7 2022"
       />
-      <ScrollToTop className="scroll-arrow" color="#f08080" smooth />
+      <ScrollToTop className="scroll-arrow" color="white" smooth />
     </div>
   );
 };

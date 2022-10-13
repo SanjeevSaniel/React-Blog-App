@@ -102,7 +102,7 @@
   display: flex;
   align-items: center;
   margin: 2rem 3rem 4rem;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 0;
   border-radius: 5px;
   color: grey;
@@ -110,7 +110,8 @@
   font-weight: 600;
   font-size: 1.4rem;
   cursor: pointer;
-  transition: all .5s;
+  transition: all 0.5s;
+  width: fit-content;
 }
 
 .load-more-btn img {
@@ -119,8 +120,87 @@
   height: 20px;
 }
 
-
 .load-more-btn:hover {
   background-color: antiquewhite;
   box-shadow: 0 0 10px 2px #f7dcdc;
+}
+
+@media screen and (max-width: 900px) {
+  .vh-main-container {
+    display: flex;
+    flex-flow: column;
+    padding: 0 2rem;
+    height: fit-content;
+  }
+
+  .vh-header {
+    margin: auto;
+  }
+
+  .vh-main-container-internal {
+    margin: auto;
+    place-items: center;
+  }
+
+  .vh-container {
+    display: flex;
+    flex-flow: column;
+    place-items: center;
+    height: fit-content;
+  }
+
+  .vh-images {
+    width: 30rem;
+    height: 25rem;
+    margin: 2rem 0 0;
+    /* margin: 2.5rem; */
+  }
+
+  .vh-images-caption {
+    position: relative;
+    color: rgb(25, 24, 24);
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+    width: 30rem;
+    /* height: 25rem; */
+  }
+
+  .description {
+    color: rgb(153, 152, 152);
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+    max-width: 40rem;
+    padding: 0 0 5rem;
+    text-align: left;
+  }
+
+  .load-more-btn {
+    margin: 1rem auto 5rem;
+  }
+
+  /* .vh-images-date {
+    position: relative;
+    font-size: 1.4rem;
+  } */
+
+  .ad-box {
+    /* grid-column: 2/3; */
+    /* position: absolute; */
+    /* right: 0; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: auto;
+
+    box-shadow: 0 0 5px 2px rgb(218, 217, 217);
+    /* margin: 0 0 0 8rem; */
+    width: 35rem;
+    height: 70rem;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
 }

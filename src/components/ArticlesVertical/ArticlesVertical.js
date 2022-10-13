@@ -45,8 +45,10 @@ const ArticlesVertical = ({
 
   return (
     <main className="vh-main-container">
-      <h1 className="vh-heading">Latest Articles</h1>
-      <hr className="vh-hr" />
+      <div className="vh-header">
+        <h1 className="vh-heading">Latest Articles</h1>
+        <hr className="vh-hr" />
+      </div>
       <main className="vh-main-container-internal">
         {articlesData.slice(0, visible).map((articleData, index) => {
           return (
@@ -72,6 +74,14 @@ const ArticlesVertical = ({
           );
         })}
 
+        <button className="load-more-btn" onClick={showMoreArticles}>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2267/2267918.png"
+            alt=""
+          />
+          Load More
+        </button>
+
         <div className="ad-box">
           <h2>Advertisement</h2> <br />
           {adsData.map((data) => {
@@ -85,14 +95,6 @@ const ArticlesVertical = ({
           })}
         </div>
       </main>
-
-      <button className="load-more-btn" onClick={showMoreArticles}>
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/2267/2267918.png"
-          alt=""
-        />
-        Load More
-      </button>
 
       <TopPosts
         photo={photo}

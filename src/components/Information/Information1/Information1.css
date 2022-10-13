@@ -77,4 +77,26 @@
   margin: 5px 10px 0;
 }
 
+@media screen and (max-width: 900px) {
+  .information-section-container {
+    margin: 8rem 2rem 0;
+  }
 
+  .information-section {
+    box-sizing: border-box;
+    /* padding-left: 10rem; */
+  }
+
+  .image-1 {
+    max-width: 40rem;
+  }
+
+  .information-section .about {
+    margin: 3rem 0;
+    max-width: 40rem;
+    font-size: 1.4rem;
+  }
+  .video-1 {
+    max-width: 40rem;
+  }
+}
