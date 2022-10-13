@@ -28,8 +28,7 @@ const Home = () => {
       <LatestStories />
       <ScrollToTop
         className="scroll-arrow"
-        backgroundColor="#f08080"
-        color="#ffffff"
+        color="#000000"
         smooth
       />
     </div>
